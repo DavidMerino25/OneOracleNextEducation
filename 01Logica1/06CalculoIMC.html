@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo IMC</title>
+</head>
+<body>
+    <script>
+        function saltarLinea() {
+        document.write("<br>");    
+        document.write("<br>");    
+        document.write("<br>");    
+    }  
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+    function calcularIMC(peso, altura, nombre) {
+        imc = peso / (altura * altura);
+        imprimir("El IMC de " + nombre + " es: " + imc);
+    }
+   
+    calcularIMC(115,1.75,"David");
+    calcularIMC(120,1.75,"Juan");
+
+
+    </script>
+</body>
+</html>
