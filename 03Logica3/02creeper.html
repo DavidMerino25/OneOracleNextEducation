@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creeper</title>
+</head>
+<canvas width="600" height="600">
+
+</canvas>
+<body>
+    <script>
+        var pantalla=document.querySelector("canvas");
+        var pincel = pantalla.getContext("2d")
+        //cabeza
+        pincel.fillStyle= "green" //propiedad
+        pincel.fillRect(0,0,350,350); // función
+
+        //ojos
+        pincel.fillStyle= "black" //propiedad
+        pincel.fillRect(51,60,90,90); // función
+
+        pincel.fillStyle= "black" //propiedad
+        pincel.fillRect(210,60,90,90); // función
+        //nariz
+        pincel.fillStyle= "black" //propiedad
+        pincel.fillRect(140,150,70,100); // función
+        //bocas
+        pincel.fillStyle= "black" //propiedad
+        pincel.fillRect(100,200,40,100); // función
+
+        pincel.fillStyle= "black" //propiedad
+        pincel.fillRect(210,200,40,100); // función
+
+
+        // https://developer.mozilla.org/es/docs/Web/API/Canvas_API/Tutorial
+
+    </script>
+</body>
+</html>
