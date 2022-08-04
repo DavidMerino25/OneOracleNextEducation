@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando con Canvas</title>
+</head>
+<canvas width="600" height="600">
+
+</canvas> 
+<body>
+    <script>
+        function pintarCuadrados(x,y,color){
+        var pantalla=document.querySelector("canvas");
+        var pincel = pantalla.getContext("2d")
+        pincel.fillStyle= color //propiedad
+        pincel.fillRect(x,y,50,50); // función
+        pincel.strokeStyle="black";
+        pincel.strokeRect(x,y,50,50)
+        }
+        var x = 0
+        while(x<600){
+            pintarCuadrados(x,0,"green");
+            pintarCuadrados(x,50,"red");
+            pintarCuadrados(x,100,"yellow");
+            x=x+50;
+        }
+        
+        
+        
+
+
+
+     
+
+        // https://developer.mozilla.org/es/docs/Web/API/Canvas_API/Tutorial
+
+    </script>
+</body>
+</html>
