@@ -1,9 +1,16 @@
 h1{
     text-align: center;
+    background-color: #ff0000;
 }
 p{
     text-align: center;
 }
 .vision{
     font-size: 20px;
+}
+body{
+    background-color: #f0f0f5;
+}
+em strong{
+    color: #493acc;
 }
