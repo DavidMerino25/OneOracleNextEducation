@@ -1,3 +1,10 @@
+body{
+    background-color: #f0f0f5;
+}
+#banner{
+    width:100% ;
+
+}
 h1{
     text-align: center;
     background-color: #ff0000;
@@ -5,12 +12,33 @@ h1{
 p{
     text-align: center;
 }
+
+.principal{
+    background: #CCCCCC;
+    padding: 20px;
+}
 .vision{
     font-size: 20px;
 }
-body{
-    background-color: #f0f0f5;
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
 }
-em strong{
-    color: #493acc;
+
+h2{
+    text-align: center;
+}
+
+.items{
+    font-style: italic;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imagenDiferenciales{
+    width: 50%;
 }
