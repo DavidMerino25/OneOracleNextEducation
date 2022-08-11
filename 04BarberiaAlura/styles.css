@@ -1,23 +1,29 @@
-body{
-    background-color: #f0f0f5;
+.titulo-principal{
+    padding-left: 30px;
 }
-#banner{
-    width:100% ;
 
-}
-h1{
-    text-align: center;
-    background-color: #ff0000;
-}
-p{
-    text-align: center;
+#banner{
+    width:100%;
 }
 
 .principal{
     background: #CCCCCC;
     padding: 20px;
 }
-.vision{
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color:red;
+}
+
+#mision{
     font-size: 20px;
 }
 
@@ -26,19 +32,17 @@ p{
     padding: 30px;
 }
 
-h2{
-    text-align: center;
-}
-
 .items{
     font-style: italic;
 }
+
 ul{
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
 }
+
 .imagenDiferenciales{
     width: 50%;
 }
